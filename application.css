@@ -1,0 +1,125 @@
+
+body {
+    background-color: #CCCCFF;
+    font-family: Numans;
+    font-size: 25px;
+    color: #cc0099;
+
+}
+
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #000080;
+     color: #cc0099;
+ }
+
+ li {
+     font-family: Numans;
+     font-size: 20px;
+     color: #cc0099;
+ }
+
+ li a {
+     background-color: #000080;
+     color:  #66ffff;
+     font-family: Numans;
+     text-align: center;
+     text-decoration: none;
+ }
+
+ li a:hover:not(.active) {
+     color: white;
+
+ }
+
+ .active {
+     background-color: #000080;
+     color:  #66ffff: ;
+     font-size: 30px;
+ }
+
+ h1 {
+   font-family: Baloo Chettan;
+   color:  #800000;
+   font-weight: normal;
+   font-size: 55px;
+ }
+
+ h2 {
+   font-family: Numans;
+   color:  #000080;
+   text-decoration: none;
+ }
+
+ p {
+   font-family: Numans;
+   color: white
+  }
+
+  a {
+    font-family: Numans;
+    color:  #66ffff;
+    text-decoration: none;
+   }
+
+
+ a:hover {
+   font-family: Numans;
+   color:  white;
+   text-decoration: none;
+  }
+
+
+div {
+   border-radius: 5px;
+   background-color: #CCCCFF;
+   padding: 20px;
+}
+
+input {
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    border: 2px solid #000080;
+    background: white;
+    color: #000080;
+    font-size: 25px;
+    font-family: Numans;
+}
+
+input[type="submit"] {
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: 2px solid white;
+    background: white;
+    color: #800000;
+    font-size: 30px;
+    font-family: Numans;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+  font-family: Numans;
+  background-color: white;
+  color: #000080;
+}
+
+button {
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: 2px solid #800000;
+    background: #800000;
+    color: #000080;
+    font-size: 30px;
+    font-family: Numans;
+    border-radius: 10px;
+}
+
+button:hover {
+  font-family: Numans;
+  background-color: white;
+  color: #000080;
+}

@@ -1,0 +1,131 @@
+
+body {
+    background-color: white;
+    font-family: Numans;
+    font-size: 25px;
+}
+
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: white;
+ }
+
+ li {
+     font-family: Numans;
+     font-size: 30px;
+     color: #cc0099;
+ }
+
+ li a {
+     background-color: #000080;
+     color:  #66ffff;
+     font-family: Numans;
+     text-align: center;
+     text-decoration: none;
+ }
+
+ li a:hover:not(.active) {
+     color: white;
+
+ }
+
+ .active {
+     background-color: #000080;
+     color:  #66ffff: ;
+     font-size: 30px;
+ }
+
+ #header {
+   font-family: Baloo Chettan;
+   color:  #cc0099;
+   font-weight: normal;
+   font-size: 80px;
+
+ }
+
+ h1 {
+   font-family: Baloo Chettan;
+   color:  #cc0099;
+   font-weight: normal;
+   font-size: 55px;
+
+ }
+
+ h2 {
+   font-family: Numans;
+   color:  #000080;
+   text-decoration: none;
+ }
+
+ p {
+   font-family: Numans;
+   color: white
+  }
+
+  a {
+    font-family: Numans;
+    color:  #66ffff;
+    text-decoration: none;
+   }
+
+
+ a:hover {
+   font-family: Numans;
+   color:  white;
+   text-decoration: none;
+  }
+
+
+div {
+   border-radius: 5px;
+   background-color: white;
+   padding: 20px;
+}
+
+input {
+    padding: 10px 10px;
+    margin: 8px 3px;
+    border: none;
+    border: 2px solid #000080;
+    background: #ffff4d;
+    color: #000080;
+    font-size: 25px;
+    font-family: Numans;
+}
+
+input[type="submit"] {
+    padding: 10px 10px;
+    margin: 8px 3px;
+    border: 2px solid white;
+    background: white;
+    color: #29a3a3;
+    font-size: 30px;
+    font-family: Numans;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+  font-family: Numans;
+  background-color: white;
+  color: #000080;
+}
+
+button {
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: 2px solid #29a3a3;
+    background: #ffff4d;
+    color: #000080;
+    font-size: 30px;
+    font-family: Numans;
+    border-radius: 10px;
+}
+
+button:hover {
+  font-family: Numans;
+  background-color: white;
+  color: #000080;
+}
